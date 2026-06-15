@@ -182,10 +182,16 @@ $\color{green}{\text{Answer}}$
 
 $\color{green}{\text{Answer}}$
 
+![](HDFS.png)  
+
 Master-slave architecture
+
 Namenode - master, Datanodes - slaves
+
 Files split into blocks
+
 Blocks stored on datanodes
+
 Namenode controls all metadata
 
 </details>
