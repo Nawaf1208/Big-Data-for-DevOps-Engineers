@@ -2,7 +2,7 @@
 
 ![](BigData.png)  
 
-# Big Data
+## Big Data
 
 <details>
 <summary><b><i>1.Explain what is exactly Big Data.</i></b></summary>
@@ -124,5 +124,68 @@ ETL stands for Extract, Transform, Load. It is a core data integration process u
 3. Load: The newly cleaned and structured data is written into its final destination—typically a data warehouse—where it can be used for business intelligence, reporting, and analysis.
 
 The Modern Twist (ELT): With the rise of powerful cloud data platforms, many organizations now use ELT, where data is loaded into the destination immediately after extraction, and the transformation step happens directly inside the target system using its native processing power.
+
+</details>
+
+## Apache Hadoop
+
+<details>
+<summary><b><i>10.Explain what is Hadoop.</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+Apache Hadoop is a collection of open-source software utilities for reliable, scalable, distributed computing. It provides a software framework for distributed storage and processing of big data using the MapReduce programming model. 
+
+Hadoop was originally designed for computer clusters built from commodity hardware, which is still the common use. It has since also found use on clusters of higher-end hardware.
+
+All the modules in Hadoop are designed with a fundamental assumption that hardware failures are common occurrences and should be automatically handled by the framework.
+
+</details>
+
+<details>
+<summary><b><i>11.Explain Hadoop YARN.</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+Responsible for managing the compute resources in clusters and scheduling users' applications.
+
+</details>
+
+<details>
+<summary><b><i>12.Explain Hadoop MapReduce.</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+A programming model for large-scale data processing.
+
+</details>
+
+<details>
+<summary><b><i>13.Explain Hadoop Distributed File Systems (HDFS).</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+- Distributed file system providing high aggregate bandwidth across the cluster.
+
+- For a user it looks like a regular file system structure but behind the scenes it's distributed across multiple machines in a cluster
+
+- Typical file size is TB and it can scale and supports millions of files
+
+- It's fault tolerant which means it provides automatic recovery from faults
+
+- It's best suited for running long batch operations rather than live analysis
+
+</details>
+
+<details>
+<summary><b><i>14.What do you know about HDFS architecture?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+Master-slave architecture
+Namenode - master, Datanodes - slaves
+Files split into blocks
+Blocks stored on datanodes
+Namenode controls all metadata
 
 </details>
